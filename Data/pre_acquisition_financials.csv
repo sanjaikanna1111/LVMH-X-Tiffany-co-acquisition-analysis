@@ -1,0 +1,12 @@
+target,fiscal_year,revenue,revenue_currency_millions,operating_profit_millions,net_profit_millions,stores,source
+Tiffany & Co.,"FY2017 (end Jan 2017)",4001.8,USD,729.9,446.1,,"Tiffany 10-K, SEC EDGAR"
+Tiffany & Co.,"FY2018 (end Jan 2018)",4169.8,USD,803.4,370.1,,"Tiffany 10-K, SEC EDGAR"
+Tiffany & Co.,"FY2019 (end Jan 2019)",4442.1,USD,790.3,586.4,,"Tiffany 10-K, SEC EDGAR"
+Tiffany & Co.,"FY2020 (end Jan 2020)",4424.0,USD,733.6,541.1,326,"Tiffany 10-K, SEC EDGAR"
+Bulgari,"2011 (deal year)","~1000 (estimated)",EUR,,,268,"FashionNetwork - revenue doubled 1bn to 2bn 2011-2016 implies ~EUR1bn at 2011; Wikipedia total assets end-2010 EUR1.49bn"
+Loro Piana,2009,,EUR,24.7,,,"WWD - operating profit only, pre-deal baseline year"
+Loro Piana,2012,,EUR,97.9,,"130+","WWD - operating profit; retail channel over 130 stores, +20% in 2012; exports 81% of revenue"
+Loro Piana,"2013 (deal-announcement estimate)",700,EUR,,150,,"WWD, at time of deal announcement - forecast, not actuals"
+Loro Piana,"2013 (first year actual, LVMH-reported)",483.6,EUR,,49.3,,"cpp-luxury.com - actual reported results differ from the pre-deal forecast row above; flagged rather than reconciled, as the discrepancy itself is unresolved in public sources"
+Belmond,"2018 (TTM Sep 2018, deal year)",572,USD,,,46,"LVMH/Belmond joint acquisition announcement, Dec 2018; EBITDA USD140m same period"
+Christian Dior Couture,pre-2017,"Not independently verified for this project",EUR,,,169,"2004 store count only (WWD); no recent pre-deal standalone P&L found - this deal is a structural outlier (ownership consolidation, not new-brand purchase) so absence of a comparable standalone P&L is expected, not a research gap"

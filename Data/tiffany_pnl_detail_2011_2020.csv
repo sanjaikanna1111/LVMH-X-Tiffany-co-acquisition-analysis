@@ -1,0 +1,11 @@
+fiscal_year_ending_jan31,tiffany_fiscal_year_label,net_sales_usd_millions,gross_profit_usd_millions,sga_expenses_usd_millions,one_off_items_usd_millions,operating_income_usd_millions,net_earnings_usd_millions,gross_margin_pct,operating_margin_pct,net_margin_pct,notes
+2011,FY2010 (Tiffany's own label),3085.3,1822.3,1227.5,,594.8,369.1,59.1,19.3,12.0,Net earnings derived from FY2012 10-K disclosure that fiscal 2011 net earnings rose 19% to $439.19m (369.1 = 439.19/1.19); not a directly reported figure
+2012,FY2011,3642.9,2151.2,1442.7,42.7,708.4,439.2,59.1,19.4,12.1,One-off item: $42.7m pre-tax expense for NY headquarters relocation
+2013,FY2012,3794.2,2163.3,1466.1,,697.2,416.2,57.0,18.4,11.0,"Net earnings declined 11% vs FY2011 per company commentary - difficult comparisons, cost pressures"
+2014,FY2013,4031.1,2340.4,1555.9,480.2,304.3,181.4,58.1,7.6,4.5,One-off item: $480.2m arbitration award expense (Swatch Group dispute) severely depressed this year's results
+2015,FY2014,4249.9,2537.2,1645.7,,891.4,484.2,59.7,21.0,11.4,Strong rebound year following the FY2013 arbitration charge
+2016,FY2015,4104.9,2491.3,,,,463.9,60.7,,11.3,SG&A not independently confirmed for this year within project scope; operating margin left blank rather than estimated
+2017,FY2016,4001.8,2499.0,1769.1,,729.9,446.1,62.4,18.2,11.1,"From prior case study dataset - SEC 10-K, cross-checked against press releases"
+2018,FY2017,4169.8,2604.7,1801.3,,803.4,370.1,62.5,19.3,8.9,Net earnings depressed vs op margin due to one-off US Tax Cuts and Jobs Act charge
+2019,FY2018,4442.1,2811.0,2020.7,,790.3,586.4,63.3,17.8,13.2,Record net sales and net earnings year
+2020,FY2019,4424.0,2762.9,2029.3,,733.6,541.1,62.5,16.6,12.2,SG&A includes costs related to the pending LVMH merger; last full year as an independent public company
