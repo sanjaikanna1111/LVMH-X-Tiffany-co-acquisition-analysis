@@ -30,6 +30,8 @@ This project analyses financial performance before and after the acquisition usi
 # Dashboard
 
 The dashboard consists of five analytical pages.
+Access the dashboard using this link:
+http://localhost:8501/
 
 | Page | Description |
 |------|-------------|
