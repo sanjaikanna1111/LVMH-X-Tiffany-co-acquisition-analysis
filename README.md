@@ -146,7 +146,6 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
 Run the dashboard:
 
 ```bash
@@ -165,6 +164,4 @@ streamlit run app.py
 
 **Sanjai Kanna**
 a built in portfolio project using data analysis,business analysis and financial analysis
-Aston University
-
 This project was developed as a portfolio case study demonstrating business analytics, financial analysis, statistical testing and forecasting using Python and Streamlit.
