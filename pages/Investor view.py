@@ -27,7 +27,7 @@ def load():
 div, group, cat, catmap = load()
 forecast_df, meta = ae.forecast_watches_jewelry(div)
 
-# ---- DEAL ECONOMICS ----
+#DEAL ECONOMIC
 st.markdown("### Deal Economics")
 c1, c2, c3, c4 = st.columns(4)
 c1.metric("Original agreement (Nov 2019)", "$16.2B", "$135/share")
@@ -43,7 +43,7 @@ normalized).
 
 st.divider()
 
-# ---- CATEGORY SIGNALS ----
+# CATEGORY SIGNALS
 st.markdown("### Category-Level Performance Signals")
 st.caption("Only genuinely disclosed data points are shown here \u2014 no invented category splits.")
 st.dataframe(cat[["category", "signal", "figure_or_direction"]], hide_index=True, use_container_width=True)
@@ -57,8 +57,8 @@ with st.expander("Category \u2192 Brand Mapping (which acquired brand sells what
 
 st.divider()
 
-# ---- FORECAST SNAPSHOT ----
-st.markdown("### 2030 Revenue Outlook Snapshot (Watches & Jewelry)")
+# ---- FORECAST Screenshot
+st.markdown("### 2030 Revenue Outlook Screenshot (Watches & Jewelry)")
 final_row = forecast_df.iloc[-1]
 method_cols = [c for c in ["linear_regression", "cagr_extrapolation", "arima"] if c in forecast_df.columns]
 c1, c2 = st.columns([1, 2])
@@ -72,7 +72,7 @@ with c2:
 
 st.divider()
 
-# ---- EXECUTIVE RECOMMENDATIONS ----
+# RECOMMENDATIONS
 st.markdown("### Executive Recommendations")
 
 recs = [

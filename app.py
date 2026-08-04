@@ -1,16 +1,6 @@
-"""
-LVMH / Tiffany Case Study — Live Dashboard
-Page 1: Executive Overview — Tiffany Impact
-
-Run locally:   streamlit run app.py
-Deploy:        push this folder to GitHub, then deploy on share.streamlit.io
-                (Streamlit Community Cloud) pointing at app.py
-"""
-
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
-
 import analysis_engine as ae
 
 st.set_page_config(
@@ -121,7 +111,7 @@ with col_b:
 
 st.divider()
 
-# ---- WATCHES & JEWELRY SEGMENT TREND ----
+#Watches&jewelry segment trend
 st.markdown("#### Watches & Jewelry Segment Revenue \u2014 Tiffany Joins in 2021")
 fig2 = go.Figure()
 colors = [RED if not incl or incl == "No" else (GOLD if incl == "Partial (from 7 Jan)" else GREEN)
@@ -137,7 +127,7 @@ st.caption("Red = Tiffany not yet included \u00b7 Gold = partial year (deal clos
 
 st.divider()
 
-# ---- ACQUISITION RANKING PREVIEW ----
+#Acquisition_impcat_screenshot
 st.markdown("#### How Tiffany Ranks Among LVMH's Major Acquisitions")
 ranked = acq.dropna(subset=["performance_rank"]).sort_values("performance_rank")
 cols = st.columns(len(ranked))
