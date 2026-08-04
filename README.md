@@ -138,7 +138,7 @@ LVMH-X-Tiffany-co-acquisition-analysis/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/LVMH-X-Tiffany-co-acquisition-analysis.git
+git clone https://github.com/sanjaikanna1111/LVMH-X-Tiffany-co-acquisition-analysis.git
 ```
 
 Install dependencies:
