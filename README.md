@@ -31,7 +31,8 @@ This project analyses financial performance before and after the acquisition usi
 
 The dashboard consists of five analytical pages.
 Access the dashboard using this link:
-http://localhost:8501/
+
+https://lvmh-x-tiffany-co-acquisition-analysis-dqhnp3fihbsmjcqyxgpk9e.streamlit.app/
 
 | Page | Description |
 |------|-------------|
