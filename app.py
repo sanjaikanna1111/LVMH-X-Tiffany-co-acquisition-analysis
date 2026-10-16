@@ -105,9 +105,7 @@ with col_b:
                   f"{ba['after']['avg_net_margin_pct']}%"],
     })
     st.dataframe(summary_df, hide_index=True, use_container_width=True)
-    st.caption("Full statistical significance testing on these differences is on the "
-               "**Acquisition Impact** page \u2014 the margin difference is statistically "
-               "significant; the revenue growth difference is not, given the small sample.")
+    st.caption("These are the numbers LVMH has actually disclosed. I didn’t invent any category splits.")
 
 st.divider()
 
