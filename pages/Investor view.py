@@ -74,29 +74,23 @@ st.divider()
 
 # RECOMMENDATIONS
 st.markdown("### Executive Recommendations")
-
 recs = [
-    ("1. Back Watches & Jewelry specifically \u2014 not an even spread across divisions.",
-     "It carries the highest 15-year CAGR of any LVMH division and the clearest repeated "
-     "LVMH-disclosed brand success stories (Tiffany, Bulgari). Prioritize high jewelry lines "
-     "within it, since that's the sub-category with the most explicit growth claims."),
-    ("2. Don't budget off the 2021\u20132023 margin peak.",
-     "Operating margin has already compressed ~5 points from its 2023 high toward pre-COVID "
-     "norms (18\u201321%). Plan and guide toward that longer-run band, not the unusually strong "
-     "post-COVID/Tiffany-integration window."),
-    ("3. Repeat the Loro Piana / Tiffany acquisition playbook; reconsider the Belmond one.",
-     "The clearest differentiator across LVMH's major deals is whether the company can later "
-     "disclose a credible standalone growth story. Screen future M&A targets on that basis, "
-     "alongside fit with the outperforming hard-luxury category."),
-    ("4. Present any forecast as a range, not a point estimate.",
-     "The three forecasting methods span a meaningful spread by 2030. A single confident "
-     "number invites false precision that a ~15-point annual series cannot actually support."),
-    ("5. Watch Fashion & Leather Goods as the bigger swing risk.",
-     "It remains LVMH's largest division by far but is currently its weakest. Given its size, "
-     "even a modest continued decline there would outweigh strong Watches & Jewelry growth at "
-     "the total-group level \u2014 a bigger factor for LVMH's 2026\u20132030 trajectory than the "
-     "acquisition this dashboard focuses on."),
+    ("1. Focus more on Watches & Jewelry than the other divisions.",
+     "This division has the highest long-term growth among LVMH’s businesses and Tiffany + Bulgari have both been called out by LVMH as strong performers. High jewelry in particular seems to be doing well."),
+
+    ("2. Don’t assume margins will stay as high as 2021–2023.",
+     "Operating margin was unusually strong after COVID and the Tiffany deal. It has already come down a bit. Planning around the longer-term average (around 18–21%) seems more realistic."),
+
+    ("3. The Tiffany and Loro Piana deals look more successful than Belmond.",
+     "LVMH has been able to talk about clear growth stories for Tiffany and Loro Piana. Belmond doesn’t have the same kind of public success story, so that difference is worth noticing for future deals."),
+
+    ("4. Treat the 2030 forecast as a range, not a single number.",
+     "The three methods (linear regression, CAGR, ARIMA) give different answers. With only about 15 years of data, a single point estimate would look more precise than the data really supports."),
+
+    ("5. Keep an eye on Fashion & Leather Goods.",
+     "It’s still LVMH’s biggest division by a long way, but it’s been the weakest recently. Even small changes there will move the whole group more than what happens in Watches & Jewelry."),
 ]
+
 
 for title, body in recs:
     with st.container(border=True):
